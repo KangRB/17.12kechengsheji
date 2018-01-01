@@ -5,3 +5,4 @@ Edit at:2017-12-28
 1. 先来先服务（FCFS）算法
 2. 短任务优先（SJF）算法
 3. 时间片轮转（RR）算法
+### 网址前加  http://htmlpreview.github.io/?  可查看html页面
