@@ -34,9 +34,9 @@ $(function(){
                 alert("进程数太多啦！！！");
             }
             for(var i = 0;i < Num;i++){
-                var ainput = $("<input type='text' class='ai'>").attr("id","a"+i);
+                var ainput = $("<input type='number' class='ai'>").attr("id","a"+i);
                 var ainput_td = $("<td></td>");
-                var sinput = $("<input type='text'>").attr("id","s"+i);
+                var sinput = $("<input type='number'>").attr("id","s"+i);
                 var sinput_td = $("<td></td>");
                 var trTemp = $("<tr></tr>");
                 trTemp.append("<td>请输入进程"+(i+1)+"的信息：</td>");
